@@ -1,7 +1,7 @@
 Setup project on local machine:
 
-Open terminal (such as Git Bash, Powershell etc.) and clone repo typing: "git clone "
-Run command: "git remote add origin https://gitlab.com/oak-forge-sst/front/todo-kickstart.git"
+Open terminal (such as Git Bash, Powershell etc.) and clone repo typing: "git clone https://github.com/mstaniewskioak/manager.git "
+Run command: "git remote add origin https://github.com/mstaniewskioak/manager.git"
 Run command: "npm install";
 Run command: "npm start".
 
