@@ -7,9 +7,8 @@ const App: React.FC = () => {
   return (
     <div className="App">
       <TodoApp />
-      
+
       {/* <Button onClick={() => console.log("test")} name="Click"/> */}
-      
     </div>
   )
 }
