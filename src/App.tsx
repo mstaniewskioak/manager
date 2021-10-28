@@ -9,21 +9,6 @@ const App = (): JSX.Element => {
   return (
     <div className="App">
       <TodoApp />
-
-      {/* Example input
-        <TextField
-        name="Search"
-        placeHolder="What are you lookin for?"
-        leftComponent={<MagnifierIcon />}
-        // rightComponent={<MagnifierIcon />}
-      /> */}
-
-      {/* Example button 
-        <Button
-        onClick={() => console.log("test")}
-        name="Click"
-        variant="primary"
-      /> */}
     </div>
   )
 }
