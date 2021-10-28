@@ -1,7 +1,7 @@
 import React from "react"
 import {
   TextFieldWrapper,
-  DivWrapper,
+  Wrapper,
   LeftComponentWrapper,
   RightComponentWrapper,
 } from "./TextField.style"
@@ -20,7 +20,7 @@ const TextField = ({
   rightComponent,
 }: TextFieldProps): JSX.Element => {
   return (
-    <DivWrapper>
+    <Wrapper>
       {leftComponent && (
         <LeftComponentWrapper tabIndex={0}>
           {leftComponent}
@@ -32,7 +32,7 @@ const TextField = ({
           {rightComponent}
         </RightComponentWrapper>
       )}
-    </DivWrapper>
+    </Wrapper>
   )
 }
 

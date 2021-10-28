@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-export const DivWrapper = styled.div`
+export const Wrapper = styled.div`
   width: auto;
   background-color: #fff;
   display: flex;
