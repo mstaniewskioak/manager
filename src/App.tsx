@@ -1,14 +1,14 @@
 import React from "react"
 import TodoApp from "components/TodoApp"
 import Button from "components/Button"
+import TextField from "components/TextField"
+import { ReactComponent as MagnifierIcon } from "assets/icons/magnifier.svg"
 import "./App.css"
 
-const App: React.FC = () => {
+const App = (): JSX.Element => {
   return (
     <div className="App">
       <TodoApp />
-
-      {/* <Button onClick={() => console.log("test")} name="Click"/> */}
     </div>
   )
 }

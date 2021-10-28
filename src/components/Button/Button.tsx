@@ -1,13 +1,20 @@
 import React from "react"
 import { ButtonWrapper } from "./Button.style"
 
+export type ButtonVariant = "primary" | "secondary"
+
 interface ButtonProps {
   onClick: () => void
   name: string
+  variant: ButtonVariant
 }
 
-const Button: React.FC<ButtonProps> = ({ onClick, name }) => {
-  return <ButtonWrapper onClick={onClick}>{name}</ButtonWrapper>
+const Button = ({ onClick, name, variant }: ButtonProps): JSX.Element => {
+  return (
+    <ButtonWrapper onClick={onClick} variant={variant}>
+      {name}
+    </ButtonWrapper>
+  )
 }
 
 export default Button
